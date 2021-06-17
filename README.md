@@ -15,7 +15,6 @@ python tnpEGM_fitter.py etc/config/settings_ele_ReReco2017_S4B.py --flag S4BISO 
 python tnpEGM_fitter.py etc/config/settings_ele_ReReco2017_S4B.py --flag S4BISO --doFit --altSig
 python tnpEGM_fitter.py etc/config/settings_ele_ReReco2017_S4B.py --flag S4BISO --doFit --altBkg
 python tnpEGM_fitter.py etc/config/settings_ele_ReReco2017_S4B.py --flag S4BISO --sumUp
-
 ```
 
 ### 2018
@@ -29,8 +28,6 @@ python tnpEGM_fitter.py etc/config/settings_ele_ReReco2018_S4B.py --flag S4BISO 
 python tnpEGM_fitter.py etc/config/settings_ele_ReReco2018_S4B.py --flag S4BISO --doFit --altSig
 python tnpEGM_fitter.py etc/config/settings_ele_ReReco2018_S4B.py --flag S4BISO --doFit --altBkg
 python tnpEGM_fitter.py etc/config/settings_ele_ReReco2018_S4B.py --flag S4BISO --sumUp
-
-
 ```
 
 ## Muon

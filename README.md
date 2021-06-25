@@ -35,36 +35,16 @@ Muon TnP at <https://gitlab.cern.ch/cms-muonPOG/spark_tnp>
 
 ### 2017
 
-For high-pT Muon:
-
 ```
 ./tnp_fitter.py flatten muon generalTracks Z Run2017 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2017
 ./tnp_fitter.py fit muon generalTracks Z Run2017 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2017
 ./tnp_fitter.py prepare muon generalTracks Z Run2017 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2017
 ```
 
-For low-pT Muon:
-
-```
-./tnp_fitter.py flatten muon generalTracks JPsi Run2017 configs/legacy_JPsi_S4B.json --baseDir ./S4BISO_2017
-./tnp_fitter.py fit muon generalTracks JPsi Run2017 configs/legacy_JPsi_S4B.json --baseDir ./S4BISO_2017
-./tnp_fitter.py prepare muon generalTracks JPsi Run2017 configs/legacy_JPsi_S4B.json --baseDir ./S4BISO_2017
-```
-
 ### 2018
-
-For high-pT Muon:
 
 ```
 ./tnp_fitter.py flatten muon generalTracks Z Run2018 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2018
 ./tnp_fitter.py fit muon generalTracks Z Run2018 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2018
 ./tnp_fitter.py prepare muon generalTracks Z Run2018 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2018
-```
-
-For low-pT Muon:
-
-```
-./tnp_fitter.py flatten muon generalTracks JPsi Run2018 configs/legacy_JPsi_S4B.json --baseDir ./S4BISO_2018
-./tnp_fitter.py fit muon generalTracks JPsi Run2018 configs/legacy_JPsi_S4B.json --baseDir ./S4BISO_2018
-./tnp_fitter.py prepare muon generalTracks JPsi Run2018 configs/legacy_JPsi_S4B.json --baseDir ./S4BISO_2018
 ```

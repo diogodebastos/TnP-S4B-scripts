@@ -82,7 +82,7 @@ if not samplesDef['tagSel'] is None: samplesDef['tagSel'].set_puTree('/eos/cms/s
 #############################################################
 biningDef = [
    { 'var' : 'el_sc_eta' , 'type': 'float', 'bins': [-2.5,-1.566,-1.4442, -0.8, 0.0, 0.8, 1.4442, 1.566,  2.5] },
-   { 'var' : 'el_pt' , 'type': 'float', 'bins': [5,12,20,35,50,100,200,500] },
+   { 'var' : 'el_pt' , 'type': 'float', 'bins': [5,20,35,50,100,200,500] },
 ]
 
 #############################################################
@@ -100,7 +100,7 @@ additionalCuts = {
     4 : 'tag_Ele_trigMVA > 0.97 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 35',
     5 : 'tag_Ele_trigMVA > 0.97 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 35',
     6 : 'tag_Ele_trigMVA > 0.97 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 35',
-    7 : 'tag_Ele_trigMVA > 0.97 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 35',
+    #7 : 'tag_Ele_trigMVA > 0.97 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 35',
     #8 : 'tag_Ele_trigMVA > 0.92 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 45',
     #9 : 'tag_Ele_trigMVA > 0.92 && sqrt( 2*event_met_pfmet*tag_Ele_pt*(1-cos(event_met_pfphi-tag_Ele_phi))) < 45'
 }

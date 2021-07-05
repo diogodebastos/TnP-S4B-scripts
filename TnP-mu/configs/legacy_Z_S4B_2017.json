@@ -34,7 +34,10 @@
         ["abseta", "pt"]
     ],
     "shifts": {
-        "TightID": {
+        "TightIDUp": {
+            "selection": "tag_pt>27 and tag_hltL3crIsoL1sMu22Or25L1f0L2f10QL3f27QL3trkIsoFiltered0p07==1 and tag_abseta<2.4 and probe_abseta < 2.4 and probe_isMuMatched==1 and tag_relIso04 < 0.2 and tag_isTight == 1 and tag_charge*probe_charge < 0 and (npairs==1 or npairs==2)"
+        },
+        "TightIDDown": {
             "selection": "tag_pt>27 and tag_hltL3crIsoL1sMu22Or25L1f0L2f10QL3f27QL3trkIsoFiltered0p07==1 and tag_abseta<2.4 and probe_abseta < 2.4 and probe_isMuMatched==1 and tag_relIso04 < 0.2 and tag_isTight == 1 and tag_charge*probe_charge < 0 and (npairs==1 or npairs==2)"
         },
         "TagIsoUp": {
@@ -47,6 +50,8 @@
     "fitShifts": {
         "AltSig": {"fitType": "AltSig"},
         "AltBkg": {"fitType": "AltBkg"},
+        "tightIDUp": {"shiftType": "tightIDUp", "inType": "TightIDUp"},
+        "tightIDDown": {"shiftType": "tightIDDown", "inType": "TightIDDown"},
         "tagIsoUp": {"shiftType": "tagIsoUp", "inType": "TagIsoUp"},
         "tagIsoDown": {"shiftType": "tagIsoDown", "inType": "TagIsoDown"},
         "massBinUp": {"shiftType": "massBinUp"},
@@ -57,15 +62,15 @@
     "systematics" : {
         "SF": {
             "fitTypes": ["AltSig"],
-            "shiftTypes": ["tagIso", "massBin", "massRange"]
+            "shiftTypes": ["tagIso", "massBin", "massRange","tightID"]
         },
         "dataEff": {
             "fitTypes": ["AltSig"],
-            "shiftTypes": ["tagIso", "massBin", "massRange"]
+            "shiftTypes": ["tagIso", "massBin", "massRange","tightID"]
         },
         "mcEff": {
             "fitTypes": [],
-            "shiftTypes": ["tagIso", "massRange"]
+            "shiftTypes": ["tagIso", "massRange","tightID"]
         }
     }
 }

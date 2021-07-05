@@ -36,15 +36,18 @@ Muon TnP at <https://gitlab.cern.ch/cms-muonPOG/spark_tnp>
 ### 2017
 
 ```
-./tnp_fitter.py flatten muon generalTracks Z Run2017 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2017
-./tnp_fitter.py fit muon generalTracks Z Run2017 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2017
-./tnp_fitter.py prepare muon generalTracks Z Run2017 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2017
+./tnp_fitter.py flatten muon generalTracks Z Run2017 configs/legacy_Z_S4B_2017.json --baseDir ./S4BISO_2017
+./tnp_fitter.py fit muon generalTracks Z Run2017 configs/legacy_Z_S4B_2017.json --baseDir ./S4BISO_2017
+./tnp_fitter.py prepare muon generalTracks Z Run2017 configs/legacy_Z_S4B_2017.json --baseDir ./S4BISO_2017
 ```
 
 ### 2018
 
 ```
-./tnp_fitter.py flatten muon generalTracks Z Run2018 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2018
-./tnp_fitter.py fit muon generalTracks Z Run2018 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2018
-./tnp_fitter.py prepare muon generalTracks Z Run2018 configs/legacy_Z_S4B.json --baseDir ./S4BISO_2018
+./tnp_fitter.py flatten muon generalTracks Z Run2018 configs/legacy_Z_S4B_2018.json --baseDir ./S4BISO_2018
+./tnp_fitter.py fit muon generalTracks Z Run2018 configs/legacy_Z_S4B_2018.json --baseDir ./S4BISO_2018
+./tnp_fitter.py prepare muon generalTracks Z Run2018 configs/legacy_Z_S4B_2018.json --baseDir ./S4BISO_2018
 ```
+Relevant links for Muon TnP:
+- nTuple content <https://gitlab.cern.ch/cms-muonPOG/muonanalysis-muonanalyzer/-/blob/master/plugins/NtupleContent.cc>
+- HLT info <https://gitlab.cern.ch/cms-muonPOG/muonanalysis-muonanalyzer/-/blob/master/python/hltInfo_cff.py>
